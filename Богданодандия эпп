@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Официальный гид по Богданоландии</title>
+    <style>
+        /* Базовые настройки в стиле Майнкрафт-интерфейса */
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #3d2314; /* Темное дерево - фон */
+            background-image: linear-gradient(45deg, #3d2314 25%, #4a2c1b 25%, #4a2c1b 50%, #3d2314 50%, #3d2314 75%, #4a2c1b 75%, #4a2c1b 100%);
+            background-size: 40px 40px;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f5eccd; /* Светлый пергамент для текста */
+            border: 6px solid #6e473b; /* Деревянная рамка */
+            border-radius: 4px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+        /* Шапка сайта */
+        header {
+            background-color: #8b5a2b; /* Дубовые доски */
+            border-bottom: 6px solid #6e473b;
+            padding: 30px 20px;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-style: italic;
+            color: #f5eccd;
+        }
+        /* Блок супер-акции */
+        .free-housing {
+            background-color: #4a752c; /* Зеленая трава */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-shadow: 1px 1px 2px #000;
+            border-bottom: 4px solid #3b5e22;
+        }
+        /* Контентные секции */
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            color: #5c341a;
+            border-bottom: 3px solid #8b5a2b;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.5rem;
+        }
+        /* Интерактивные спойлеры для ЗАКОНОВ */
+        details {
+            background-color: #e6daae;
+            border: 2px solid #8b5a2b;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            padding: 10px;
+            transition: background 0.3s;
+        }
+        details[open] {
+            background-color: #fffbf0;
+        }
+        summary {
+            font-weight: bold;
+            color: #5c341a;
+            cursor: pointer;
+            outline: none;
+            user-select: none;
+            font-size: 1.1rem;
+        }
+        summary:hover {
+            color: #a0522d;
+        }
+        .law-text {
+            margin-top: 10px;
+            padding-left: 15px;
+            border-left: 3px solid #4a752c;
+            line-height: 1.5;
+        }
+        /* Карточки построек */
+        .building-card {
+            background-color: #fffbf0;
+            border: 2px solid #cd853f;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .building-title {
+            font-weight: bold;
+            color: #2b4c7e; /* Синий акцент под цвет флага */
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        /* Кнопка ВК и Покупка земель */
+        .btn-vk {
+            display: inline-block;
+            background-color: #2b4c7e; /* Синий цвет */
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border-bottom: 4px solid #1a3356;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .btn-vk:hover {
+            background-color: #365f9d;
+        }
+        .price-box {
+            background-color: #e8f4f8;
+            border: 2px dashed #2b4c7e;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+        /* Футер */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6e473b;
+            color: #f5eccd;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>👑 БОГДАНОЛАНДИЯ</h1>
+        <p>Официальный туристический гид по великой республике</p>
+    </header>
+
+    <div class="free-housing">
+        🏨 АКЦИЯ ДЛЯ ГОСТЕЙ: Можно жить абсолютно БЕСПЛАТНО в квартирном комплексе «Маяк»!
+    </div>
+
+    <div class="content">
+        <h2>📜 Конституция и Законы (Нажми, чтобы раскрыть детали)</h2>
+        <p style="color: #666; font-style: italic;">Нажимайте на любой закон, чтобы прочитать его подробный текст:</p>
+
+        <details>
+            <summary>Закон №1: О Мосте-ТЦ «Хрюня» и торговых зонах</summary>
+            <div class="law-text">
+                Мост-ТЦ «Хрюня» — Главный Стратегический Объект. Внутри моста запрещено использовать динамит, огниво и разливать жидкости. 10% от всех торговых сделок уходят в казну на развитие Семеновска. Нарушитель обязан вернуть на место точно такой же блок, какой сломал, и выплатить 10 алмазов Вице-президенту.
+            </div>
+        </details>
+
+        <details>
+            <summary>Закон №2: О Государственной Границе и Окружном Заборе</summary>
+            <div class="law-text">
+                Окружной забор Богдановска — священная граница. Вход в город разрешен только через ворота или КПП. Перелезать забор или строить столбы грязи снаружи для прыжка — запрещено! Кто сломал забор для прохода, обязан немедленно вернуть блок на место. Нарушение карается депортацией и конфискацией оружия.
+            </div>
+        </details>
+
+        <details>
+            <summary>Закон №3: О Жилом Фонде и Президентской Недвижимости</summary>
+            <div class="law-text">
+                Распределением квартир в ЖК «Маяк» заправляет Вице-президент. Расширять квартиры жильцам официально РАЗРЕШЕНО. За порчу общедомового имущества — Суд и 5 дней тюрьмы. Особняк в Семеновске — закрытая резиденция Президента, вход без приглашения приравнивается к шпионажу (наказание: очистка инвентаря).
+            </div>
+        </details>
+
+        <details>
+            <summary>Закон №4: О Судебной Системе и Исполнении Наказаний</summary>
+            <div class="law-text">
+                Судебная власть принадлежит Президенту Богдану и Вице-президенту. Никто не может быть посажен без Суда. Попытка побега из тюрьмы удваивает срок. Друзьям заключенного строго запрещено передавать ему любые кирки или лопаты в камеру.
+            </div>
+        </details>
+
+        <details>
+            <summary>Закон №5 и №6: Об обязательном страховании БЗИ</summary>
+            <div class="law-text">
+                Каждый житель Богданоландии обязан застраховать свое имущество в государственной компании БЗИ (Богданоландская защита имущества). Любая попытка обойти страховку или скрыть постройку карается Судом: нарушитель отправляется в тюрьму строго на 15 дней и выплачивает штраф в размере 20 слитков железа.
+            </div>
+        </details>
+
+        <details>
+            <summary>Закон №7: О государственных вылазках и походах за ресурсы</summary>
+            <div class="law-text">
+                Одиночные походы за пределы охраняемой зоны запрещены! В любой вылазке должно быть минимум два человека. Перед выходом обязательно нужно получить разрешение у Президента или Вице-президента. Вещи погибшего напарника присваивать запрещено — их нужно полностью охранять и вернуть хозяину. За самоволку — конфискация ресурсов в казну.
+            </div>
+        </details>
+
+
+        <h2>🏗 Путеводитель по достопримечательностям</h2>
+        
+        <div class="building-card">
+            <div class="building-title">🏙 Квартирный комплекс «Маяк» (г. Богдановск)</div>
+            <div>Современный жилой комплекс со свободной планировкой квартир. Идеальное место для бесплатного заселения новых туристов и жителей республики.</div>
+        </div>
+
+        <div class="building-card">
+            <div class="building-title">🐷 Мост-ТЦ «Хрюня» и студия «Богданоландия новости»</div>
+            <div>Уникальный мост-магазин, соединяющий жилой сектор с торговым центром. Внутри расположена главная государственная медиа-студия <b>«Богданоландия новости»</b>, откуда вещаются все указы и экстренные репортажи!</div>
+        </div>
+
+        <div class="building-card">
+            <div class="building-title">🛒 ТЦ «Богданович» (Главный рынок)</div>
+            <div>Настоящий рай для приезжих: здесь работает полностью <b>бесплатная шахта</b> для новичков и установлен <b>бесплатный автомат с едой</b>. Также на рынке можно выгодно купить дерево и аметисты у официального торговца.</div>
+        </div>
+
+        <div class="building-card">
+            <div class="building-title">🏰 Город Семеновск и Президентский Особняк</div>
+            <div>Второй крупный город республики. На данный момент здесь возводится правительственная инфраструктура. Тут же располагается шикарный закрытый особняк Президента и Вице-президента.</div>
+        </div>
+
+
+        <h2>🗺 Покупка собственной земли</h2>
+        <div class="price-box">
+            <p>Хотите построить свой дом или ферму? В Богданоландии любая свободная земля стоит одинаково!</p>
+            <p><strong>Фиксированная цена:</strong> 💎 <b>2 алмаза</b> или ⛓️ <b>40 железа</b>.</p>
+            <p><strong>Как купить:</strong> Выберите абсолютно любое приглянувшееся место на карте, позовите Президента или Вице-президента и просто покажите пальцем, где хотите строиться. БЗИ сразу оформит приват и страховку!</p>
+        </div>
+
+
+        <h2>👥 Официальное сообщество</h2>
+        <p>Следите за развитием Богданоландии, смотрите скриншоты построек и общайтесь с другими гражданами в нашей группе ВКонтакте!</p>
+        <a href="#" class="btn-vk" target="_blank">🔗 Перейти в сообщество ВК (Скоро ссылка)</a>
+
+    </div>
+
+    <footer>
+        © 2026 Республика Богданоландия. Разработано по указу Президента Богдана. Версия приложения: Alpha 1.0 (GitHub Ready)
+    </footer>
+</div>
+
+</body>
+</html>
